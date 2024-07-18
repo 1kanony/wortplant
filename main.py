@@ -4,6 +4,7 @@ import json
 from BreakOutOfCycle import BreakOutOfCycle
 from check_pronunciation import check_pronunciation
 from pronounce import pronounce
+from check_spelling import check_spelling
 
 
 def retrieve_words(file_name='translations.json'):
@@ -14,30 +15,10 @@ def retrieve_words(file_name='translations.json'):
         yield german_word, english_translation
 
 
-def check_translation(word, correct_answer, language):
-    while True:
-        print(f'what is the translation of word \'{word}\' in \'{language}\'?\'')
-
-        answer = input()
-
-        if answer.lower() == 'quit':
-            raise BreakOutOfCycle
-
-        if len(answer) != len(correct_answer):
-            print('Incorrect!')
-            continue
-
-        if answer.lower() == correct_answer.lower():
-            print('Correct!')
-            break
-        else:
-            print('Incorrect!')
-
-
 def cycle(recognizer, engine):
     for german, english in retrieve_words():
         try:
-            check_translation(english, german, 'de')
+            check_spelling(english, german, 'de')
             # check_pronunciation(german, 'de', recognizer, engine)
             pronounce(german, 'de', engine)
         except BreakOutOfCycle:
