@@ -1,0 +1,2 @@
+class BreakOutOfCycle(Exception):
+    pass
