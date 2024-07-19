@@ -204,6 +204,14 @@
     "Onkel": {"translation": "uncle", "example": {"de": "Mein Onkel ist lustig.", "en": "My uncle is funny."}},
     "Tante": {"translation": "aunt", "example": {"de": "Meine Tante ist freundlich.", "en": "My aunt is friendly."}},
     "Nachname": {"translation": "surname", "example": {"de": "Mein Nachname ist Müller.", "en": "My surname is Müller."}},
-    "lila": {"translation": "purple", "example": {"de": "Der Hut ist lila.", "en": "The hat is purple."}}
+    "lila": {"translation": "purple", "example": {"de": "Der Hut ist lila.", "en": "The hat is purple."}},
+    "laufen": {"translation": "run", "example":{}},
+    "sitzen": {"translation": "sit", "example":{}},
+    "versuchen": {"translation": "try", "example":{}},
+    "Lachen": {"translation": "laugh", "example":{}, "part_of_speech": "noun"},
+    "lachen": {"translation": "laugh", "example":{}, "part_of_speech": "verb"},
+    "heilen": {"translation": "heal", "example":{}},
+    "tapfer": {"translation": "brave", "example":{}},
+    "Leistung": {"translation": "achievement", "example":{}}
   }
 }

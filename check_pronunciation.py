@@ -3,13 +3,13 @@ from text_to_speech import text_to_speech
 
 
 def check_pronunciation(correct_answer, language, recognizer, engine):
-    while True:
-        with sr.Microphone() as source:
-            text_to_speech('Please wait. Calibrating microphone...', 'en-Us', 120, engine)
-            recognizer.adjust_for_ambient_noise(source, duration=3)
-            text_to_speech('Microphone calibrated. Listening...', 'en-Us', 120, engine)
+    with sr.Microphone() as source:
+        text_to_speech('Please wait. Calibrating microphone...', 'en-Us', 120, engine)
+        recognizer.adjust_for_ambient_noise(source, duration=3)
+        text_to_speech('Microphone calibrated. Listening...', 'en-Us', 120, engine)
 
-            audio_data = recognizer.listen(source)
+        while True:
+            audio_data = recognizer.listen(source, phrase_time_limit=5)
             text_to_speech('Recognizing...', 'en-Us', 120, engine)
 
             try:
@@ -24,7 +24,6 @@ def check_pronunciation(correct_answer, language, recognizer, engine):
                     text_to_speech('Incorrect!', 'en-Us', 120, engine)
                     text_to_speech('Correct pronunciation should be', 'en-Us', 120, engine)
                     text_to_speech(correct_answer, language, 90, engine)
-
             except sr.UnknownValueError:
                 print("Google Speech Recognition could not understand audio")
                 text_to_speech(correct_answer, language, 90, engine)

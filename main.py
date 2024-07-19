@@ -22,7 +22,7 @@ def cycle(recognizer, engine):
             check_spelling(data['translation'], german, 'de')
             pronounce(german, 'de', engine)
             give_example(data['example'], 'de', 'en', engine)
-            # check_pronunciation(german, 'de', recognizer, engine)
+            check_pronunciation(german, 'de', recognizer, engine)
         except BreakOutOfCycle:
             break
 
