@@ -65,7 +65,7 @@ def is_revision_needed(word, langauge, file_name):
     last_check_time = datetime.strptime(vocabulary[word][langauge]['last_check_time'], "%d/%m/%Y %H:%M:%S")
     level = vocabulary[word][langauge]['level']
 
-    if 'level' not in vocabulary[word][langauge]:
+    if 'level' not in vocabulary[word][langauge] or level == 0:
         return True
 
     return (datetime.now() - last_check_time).days >= progress_tier_list[level - 1]
