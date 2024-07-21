@@ -1,8 +1,12 @@
 from BreakOutOfCycle import BreakOutOfCycle
 
 
-def check_spelling(word, correct_answer, language):
+def check_spelling(word, correct_answer, language, chances):
+    tries = 0
+
     while True:
+        tries += 1
+
         print(f'what is the translation of word \'{word}\' in \'{language}\'?\'')
 
         answer = input().lower()
@@ -24,3 +28,5 @@ def check_spelling(word, correct_answer, language):
             break
         else:
             print('Incorrect!')
+
+    return tries <= chances

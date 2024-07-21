@@ -2,13 +2,17 @@ import speech_recognition as sr
 from text_to_speech import text_to_speech
 
 
-def check_pronunciation(correct_answer, language, recognizer, engine):
+def check_pronunciation(correct_answer, language, recognizer, engine, chances):
+    tries = 0
+
     with sr.Microphone() as source:
         text_to_speech('Please wait. Calibrating microphone...', 'en-Us', 120, engine)
         recognizer.adjust_for_ambient_noise(source, duration=3)
         text_to_speech('Microphone calibrated. Listening...', 'en-Us', 120, engine)
 
         while True:
+            tries += 1
+
             audio_data = recognizer.listen(source, phrase_time_limit=5)
             text_to_speech('Recognizing...', 'en-Us', 120, engine)
 
@@ -30,3 +34,5 @@ def check_pronunciation(correct_answer, language, recognizer, engine):
             except sr.RequestError as e:
                 print(f"Could not request results from Google Speech Recognition service; {e}")
                 text_to_speech(correct_answer, language, 90, engine)
+
+        return tries <= chances
