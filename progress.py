@@ -68,6 +68,9 @@ def is_revision_needed(word, langauge, file_name):
     if 'level' not in vocabulary[word][langauge] or level == 0:
         return True
 
+    if len(progress_tier_list) < level:
+        return False
+
     return (datetime.now() - last_check_time).days >= progress_tier_list[level - 1]
 
 
