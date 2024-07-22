@@ -10,5 +10,95 @@
             "level": 1,
             "last_check_time": "21/07/2024 10:56:56"
         }
+    },
+    "go": {
+        "de": {
+            "level": 1,
+            "last_check_time": "22/07/2024 09:59:01"
+        }
+    },
+    "not": {
+        "de": {
+            "level": 1,
+            "last_check_time": "22/07/2024 09:59:50"
+        }
+    },
+    "very": {
+        "de": {
+            "level": 1,
+            "last_check_time": "22/07/2024 10:01:32"
+        }
+    },
+    "thanks": {
+        "de": {
+            "level": 1,
+            "last_check_time": "22/07/2024 10:02:17"
+        }
+    },
+    "and": {
+        "de": {
+            "level": 1,
+            "last_check_time": "22/07/2024 10:03:01"
+        }
+    },
+    "also": {
+        "de": {
+            "level": 1,
+            "last_check_time": "22/07/2024 10:03:31"
+        }
+    },
+    "mr": {
+        "de": {
+            "level": 1,
+            "last_check_time": "22/07/2024 10:04:13"
+        }
+    },
+    "Ms/Mrs": {
+        "de": {
+            "level": 1,
+            "last_check_time": "22/07/2024 10:04:55"
+        }
+    },
+    "or": {
+        "de": {
+            "level": 1,
+            "last_check_time": "22/07/2024 10:05:51"
+        }
+    },
+    "clock": {
+        "de": {
+            "level": 1,
+            "last_check_time": "22/07/2024 10:06:33"
+        }
+    },
+    "beautiful": {
+        "de": {
+            "level": 1,
+            "last_check_time": "22/07/2024 10:07:11"
+        }
+    },
+    "hunger": {
+        "de": {
+            "level": 1,
+            "last_check_time": "22/07/2024 10:07:51"
+        }
+    },
+    "hungry": {
+        "de": {
+            "level": 1,
+            "last_check_time": "22/07/2024 10:08:32"
+        }
+    },
+    "please": {
+        "de": {
+            "level": 1,
+            "last_check_time": "22/07/2024 10:09:11"
+        }
+    },
+    "name": {
+        "de": {
+            "level": 1,
+            "last_check_time": "22/07/2024 10:09:41"
+        }
     }
 }
