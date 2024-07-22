@@ -16,6 +16,7 @@ def check_spelling(word, correct_answer, language, chances):
 
         if answer in ['reveal', 'r']:
             print(f'The correct answer is \'{correct_answer}\'')
+            tries = chances + 1
             break
 
         if len(answer) != len(correct_answer):
