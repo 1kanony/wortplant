@@ -7,7 +7,7 @@ def check_spelling(word, attrs, correct_answer, language, chances):
     while True:
         tries += 1
 
-        print(f'what is the translation of word \'{word} ({attrs})\' in \'{language}\'?\'')
+        _ask_word(word, attrs, language)
 
         answer = input().lower()
 
@@ -30,3 +30,8 @@ def check_spelling(word, attrs, correct_answer, language, chances):
             print('Incorrect!')
 
     return tries <= chances
+
+
+def _ask_word(word, attrs, language):
+    print(f'what is the translation of word \'{word}'
+          f'{' (' + attrs + ')' if attrs else ''}\' in \'{language}\'?\'')
