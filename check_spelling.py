@@ -1,13 +1,13 @@
-from BreakOutOfCycle import BreakOutOfCycle
+from Exceptions import BreakOutOfCycle, Reveal
 
 
-def check_spelling(word, correct_answer, language, chances):
+def check_spelling(word, attrs, correct_answer, language, chances):
     tries = 0
 
     while True:
         tries += 1
 
-        print(f'what is the translation of word \'{word}\' in \'{language}\'?\'')
+        print(f'what is the translation of word \'{word} ({attrs})\' in \'{language}\'?\'')
 
         answer = input().lower()
 
@@ -16,8 +16,7 @@ def check_spelling(word, correct_answer, language, chances):
 
         if answer in ['reveal', 'r']:
             print(f'The correct answer is \'{correct_answer}\'')
-            tries = chances + 1
-            break
+            raise Reveal
 
         if len(answer) != len(correct_answer):
             print('Incorrect!')

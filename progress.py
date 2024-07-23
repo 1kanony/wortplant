@@ -18,29 +18,29 @@ progress_tier_list = [
 time_str_format = '%d/%m/%Y %H:%M:%S'
 
 
-def record_progress(word, langauge, passed, file_name):
+def record_progress(word_attrs, langauge, passed, file_name):
     _create_file_if_not_exists(file_name)
 
     with open(file_name, 'r+', encoding='utf-8') as file:
         vocabulary = json.load(file)
 
-        if word in vocabulary:
-            if langauge in vocabulary[word]:
-                if 'level' not in vocabulary[word][langauge]:
-                    vocabulary[word][langauge]['level'] = 0
+        if word_attrs in vocabulary:
+            if langauge in vocabulary[word_attrs]:
+                if 'level' not in vocabulary[word_attrs][langauge]:
+                    vocabulary[word_attrs][langauge]['level'] = 0
 
-                vocabulary[word][langauge]['last_check_time'] = datetime.now().strftime(time_str_format)
-                vocabulary[word][langauge]['level'] += 1 if passed else -1
+                vocabulary[word_attrs][langauge]['last_check_time'] = datetime.now().strftime(time_str_format)
+                vocabulary[word_attrs][langauge]['level'] += 1 if passed else -1
 
-                if vocabulary[word][langauge]['level'] < 0:
-                    vocabulary[word][langauge]['level'] = 0
+                if vocabulary[word_attrs][langauge]['level'] < 0:
+                    vocabulary[word_attrs][langauge]['level'] = 0
             else:
-                vocabulary[word][langauge] += {
+                vocabulary[word_attrs][langauge] += {
                     'level': 1 if passed else 0,
                     'last_check_time': datetime.now().strftime(time_str_format)
                 }
         else:
-            vocabulary[word] = {
+            vocabulary[word_attrs] = {
                 langauge: {
                     'level': 1 if passed else 0,
                     'last_check_time': datetime.now().strftime(time_str_format)
@@ -51,21 +51,21 @@ def record_progress(word, langauge, passed, file_name):
         json.dump(vocabulary, file, indent=4)
 
 
-def is_revision_needed(word, langauge, file_name):
+def is_revision_needed(word_attrs, langauge, file_name):
     _create_file_if_not_exists(file_name)
 
     with open(file_name, 'r', encoding='utf-8') as file:
         vocabulary = json.load(file)
 
-    if word not in vocabulary or \
-            langauge not in vocabulary[word] or \
-            'last_check_time' not in vocabulary[word][langauge]:
+    if word_attrs not in vocabulary or \
+            langauge not in vocabulary[word_attrs] or \
+            'last_check_time' not in vocabulary[word_attrs][langauge]:
         return True
 
-    last_check_time = datetime.strptime(vocabulary[word][langauge]['last_check_time'], time_str_format)
-    level = vocabulary[word][langauge]['level']
+    last_check_time = datetime.strptime(vocabulary[word_attrs][langauge]['last_check_time'], time_str_format)
+    level = vocabulary[word_attrs][langauge]['level']
 
-    if 'level' not in vocabulary[word][langauge] or level == 0:
+    if 'level' not in vocabulary[word_attrs][langauge] or level == 0:
         return True
 
     if len(progress_tier_list) < level:
