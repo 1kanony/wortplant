@@ -166,5 +166,35 @@
             "level": 2,
             "last_check_time": "23/07/2024 11:09:56"
         }
+    },
+    "need": {
+        "de": {
+            "level": 1,
+            "last_check_time": "23/07/2024 11:16:51"
+        }
+    },
+    "charisma": {
+        "de": {
+            "level": 1,
+            "last_check_time": "23/07/2024 11:17:23"
+        }
+    },
+    "muscle": {
+        "de": {
+            "level": 1,
+            "last_check_time": "23/07/2024 11:13:50"
+        }
+    },
+    "emotion": {
+        "de": {
+            "level": 1,
+            "last_check_time": "23/07/2024 11:14:21"
+        }
+    },
+    "luxury": {
+        "de": {
+            "level": 1,
+            "last_check_time": "23/07/2024 11:14:51"
+        }
     }
 }
