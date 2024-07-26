@@ -256,5 +256,35 @@
             "level": 2,
             "last_check_time": "26/07/2024 19:39:16"
         }
+    },
+    "power": {
+        "de": {
+            "level": 1,
+            "last_check_time": "26/07/2024 21:46:34"
+        }
+    },
+    "black": {
+        "de": {
+            "level": 1,
+            "last_check_time": "26/07/2024 21:48:11"
+        }
+    },
+    "white": {
+        "de": {
+            "level": 1,
+            "last_check_time": "26/07/2024 21:48:57"
+        }
+    },
+    "dog": {
+        "de": {
+            "level": 1,
+            "last_check_time": "26/07/2024 21:49:46"
+        }
+    },
+    "hate": {
+        "de": {
+            "level": 1,
+            "last_check_time": "26/07/2024 21:52:04"
+        }
     }
 }
