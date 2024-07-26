@@ -1,4 +1,5 @@
 from Exceptions import BreakOutOfCycle, Reveal
+import random
 
 
 def check_spelling(word, attrs, correct_answer, language, chances):
@@ -7,7 +8,7 @@ def check_spelling(word, attrs, correct_answer, language, chances):
     while True:
         tries += 1
 
-        _ask_word(word, attrs, language)
+        correct_answer = _ask_word(word, attrs, correct_answer, language)
 
         answer = input().lower()
 
@@ -32,6 +33,14 @@ def check_spelling(word, attrs, correct_answer, language, chances):
     return tries <= chances
 
 
-def _ask_word(word, attrs, language):
-    print(f'what is the translation of word \'{word}'
-          f'{' (' + attrs + ')' if attrs else ''}\' in \'{language}\'?\'')
+def _ask_word(word, attrs, correct_answer, language):
+    en_lang = f'{word}{' (' + attrs + ')' if attrs else ''}'
+    other_lang = correct_answer
+
+    if random.choice([True, False]):
+        print(f'what is the translation of word \'{en_lang}\' in \'{language}\'?\'')
+    else:
+        print(f'what is the translation of word \'{other_lang}\' in \'en\'?\'')
+        correct_answer = en_lang
+
+    return correct_answer
