@@ -1,6 +1,6 @@
 import json
 import os
-from datetime import datetime
+from datetime import datetime, timedelta
 
 progress_tier_list = [
     1,  # level 1 (1 day needed before revision)
@@ -71,7 +71,12 @@ def is_revision_needed(word_attrs, langauge, file_name):
     if len(progress_tier_list) < level:
         return False
 
-    return (datetime.now() - last_check_time).days >= progress_tier_list[level - 1]
+    kwargs = {'hour': 0, 'minute': 0, 'second': 0, 'microsecond': 0}
+
+    actual_datetime = datetime.now().replace(**kwargs)
+    available_datetime = last_check_time.replace(**kwargs) + timedelta(days=progress_tier_list[level - 1])
+
+    return actual_datetime >= available_datetime
 
 
 def _create_file_if_not_exists(file_name):

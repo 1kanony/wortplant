@@ -5,10 +5,12 @@ import random
 def check_spelling(word, attrs, correct_answer, language, chances):
     tries = 0
 
+    correct_answer, text = _ask_word(word, attrs, correct_answer, language)
+
     while True:
         tries += 1
 
-        correct_answer = _ask_word(word, attrs, correct_answer, language)
+        print(text)
 
         answer = input().lower()
 
@@ -38,9 +40,9 @@ def _ask_word(word, attrs, correct_answer, language):
     other_lang = correct_answer
 
     if random.choice([True, False]):
-        print(f'what is the translation of word \'{en_lang}\' in \'{language}\'?\'')
+        text = f'what is the translation of word \'{en_lang}\' in \'{language}\'?\''
     else:
-        print(f'what is the translation of word \'{other_lang}\' in \'en\'?\'')
+        text = f'what is the translation of word \'{other_lang}\' in \'en\'?\''
         correct_answer = en_lang
 
-    return correct_answer
+    return correct_answer, text
