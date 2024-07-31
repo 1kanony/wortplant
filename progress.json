@@ -109,8 +109,8 @@
     },
     "movie": {
         "de": {
-            "level": 5,
-            "last_check_time": "28/07/2024 00:03:13"
+            "level": 6,
+            "last_check_time": "31/07/2024 11:32:50"
         }
     },
     "love": {
@@ -151,8 +151,8 @@
     },
     "empire": {
         "de": {
-            "level": 5,
-            "last_check_time": "28/07/2024 00:06:37"
+            "level": 6,
+            "last_check_time": "31/07/2024 11:33:13"
         }
     },
     "king": {
@@ -169,32 +169,32 @@
     },
     "need": {
         "de": {
-            "level": 5,
-            "last_check_time": "28/07/2024 00:07:34"
+            "level": 6,
+            "last_check_time": "31/07/2024 11:34:45"
         }
     },
     "charisma": {
         "de": {
-            "level": 5,
-            "last_check_time": "28/07/2024 00:08:04"
+            "level": 6,
+            "last_check_time": "31/07/2024 11:35:15"
         }
     },
     "muscle": {
         "de": {
-            "level": 5,
-            "last_check_time": "28/07/2024 00:08:49"
+            "level": 6,
+            "last_check_time": "31/07/2024 11:35:43"
         }
     },
     "emotion": {
         "de": {
-            "level": 5,
-            "last_check_time": "28/07/2024 00:10:04"
+            "level": 6,
+            "last_check_time": "31/07/2024 11:36:12"
         }
     },
     "luxury": {
         "de": {
-            "level": 5,
-            "last_check_time": "28/07/2024 00:10:34"
+            "level": 6,
+            "last_check_time": "31/07/2024 11:36:42"
         }
     },
     "age": {
@@ -217,44 +217,44 @@
     },
     "animal": {
         "de": {
-            "level": 4,
-            "last_check_time": "29/07/2024 13:34:26"
+            "level": 5,
+            "last_check_time": "31/07/2024 11:37:17"
         }
     },
     "trust": {
         "de": {
-            "level": 4,
-            "last_check_time": "29/07/2024 13:35:41"
+            "level": 5,
+            "last_check_time": "31/07/2024 11:38:19"
         }
     },
     "game": {
         "de": {
-            "level": 4,
-            "last_check_time": "29/07/2024 13:36:15"
+            "level": 5,
+            "last_check_time": "31/07/2024 11:39:42"
         }
     },
     "feeling": {
         "de": {
-            "level": 4,
-            "last_check_time": "29/07/2024 13:37:07"
+            "level": 5,
+            "last_check_time": "31/07/2024 11:40:20"
         }
     },
     "puzzle": {
         "de": {
-            "level": 4,
-            "last_check_time": "29/07/2024 13:38:08"
+            "level": 5,
+            "last_check_time": "31/07/2024 11:40:55"
         }
     },
     "country": {
         "de": {
-            "level": 4,
-            "last_check_time": "29/07/2024 13:39:02"
+            "level": 5,
+            "last_check_time": "31/07/2024 11:41:26"
         }
     },
     "gold": {
         "de": {
-            "level": 4,
-            "last_check_time": "29/07/2024 13:41:47"
+            "level": 5,
+            "last_check_time": "31/07/2024 11:41:56"
         }
     },
     "power": {
@@ -283,110 +283,140 @@
     },
     "hatred": {
         "de": {
-            "level": 3,
-            "last_check_time": "30/07/2024 12:21:17"
+            "level": 4,
+            "last_check_time": "31/07/2024 11:43:25"
         }
     },
     "good": {
         "de": {
-            "level": 3,
-            "last_check_time": "30/07/2024 12:23:02"
+            "level": 4,
+            "last_check_time": "31/07/2024 11:44:20"
         }
     },
     "bad": {
         "de": {
-            "level": 3,
-            "last_check_time": "30/07/2024 12:24:20"
+            "level": 4,
+            "last_check_time": "31/07/2024 11:44:50"
         }
     },
     "neutral": {
         "de": {
-            "level": 3,
-            "last_check_time": "30/07/2024 12:25:05"
+            "level": 4,
+            "last_check_time": "31/07/2024 11:45:42"
         }
     },
     "lie": {
         "de": {
-            "level": 3,
-            "last_check_time": "30/07/2024 12:25:51"
+            "level": 4,
+            "last_check_time": "31/07/2024 11:46:38"
         }
     },
     "truth": {
         "de": {
-            "level": 3,
-            "last_check_time": "30/07/2024 12:26:26"
+            "level": 2,
+            "last_check_time": "31/07/2024 11:48:24"
         }
     },
     "transparent": {
         "de": {
-            "level": 2,
-            "last_check_time": "30/07/2024 12:26:54"
+            "level": 3,
+            "last_check_time": "31/07/2024 11:48:54"
         }
     },
     "star": {
         "de": {
-            "level": 2,
-            "last_check_time": "30/07/2024 12:27:53"
+            "level": 3,
+            "last_check_time": "31/07/2024 11:49:29"
         }
     },
     "smart": {
         "de": {
-            "level": 2,
-            "last_check_time": "30/07/2024 12:28:22"
+            "level": 3,
+            "last_check_time": "31/07/2024 11:49:56"
         }
     },
     "fool": {
         "de": {
-            "level": 2,
-            "last_check_time": "30/07/2024 12:49:21"
+            "level": 3,
+            "last_check_time": "31/07/2024 11:50:36"
         }
     },
     "fight": {
         "de": {
-            "level": 2,
-            "last_check_time": "30/07/2024 12:50:52"
+            "level": 3,
+            "last_check_time": "31/07/2024 11:52:09"
         }
     },
     "struggle": {
         "de": {
-            "level": 1,
-            "last_check_time": "30/07/2024 12:51:35"
+            "level": 2,
+            "last_check_time": "31/07/2024 11:52:45"
         }
     },
     "family": {
         "de": {
-            "level": 1,
-            "last_check_time": "30/07/2024 12:52:39"
+            "level": 2,
+            "last_check_time": "31/07/2024 11:53:22"
         }
     },
     "mother": {
         "de": {
-            "level": 1,
-            "last_check_time": "30/07/2024 12:53:05"
+            "level": 2,
+            "last_check_time": "31/07/2024 11:53:47"
         }
     },
     "father": {
         "de": {
-            "level": 1,
-            "last_check_time": "30/07/2024 12:53:57"
+            "level": 2,
+            "last_check_time": "31/07/2024 11:54:17"
         }
     },
     "brother": {
         "de": {
-            "level": 1,
-            "last_check_time": "30/07/2024 12:57:52"
+            "level": 2,
+            "last_check_time": "31/07/2024 11:54:57"
         }
     },
     "sister": {
         "de": {
-            "level": 1,
-            "last_check_time": "30/07/2024 12:58:21"
+            "level": 2,
+            "last_check_time": "31/07/2024 11:55:49"
         }
     },
     "cat": {
         "de": {
+            "level": 2,
+            "last_check_time": "31/07/2024 11:56:29"
+        }
+    },
+    "sharp": {
+        "de": {
             "level": 1,
-            "last_check_time": "30/07/2024 12:58:59"
+            "last_check_time": "31/07/2024 11:59:12"
+        }
+    },
+    "solid": {
+        "de": {
+            "level": 1,
+            "last_check_time": "31/07/2024 12:00:48"
+        }
+    },
+    "chess": {
+        "de": {
+            "level": 1,
+            "last_check_time": "31/07/2024 12:05:17"
+        }
+    },
+    "phone": {
+        "de": {
+            "level": 1,
+            "last_check_time": "31/07/2024 12:02:53"
+        }
+    },
+    "sword": {
+        "de": {
+            "level": 1,
+            "last_check_time": "31/07/2024 12:06:01"
         }
     }
 }
