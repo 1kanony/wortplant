@@ -71,7 +71,7 @@
     "phone": {"translation": "Telefon", "example":{}},
     "sword": {"translation": "Schwert", "example":{}},
     "shield": {"translation": "Schild", "example":{}},
-    "balance": {"translation": "Bilanz", "example":{}},
+    "balance": {"translation": "Balance", "example":{}},
     "brain": {"translation": "Gehirn", "example":{}},
     "dance": {"translation": "Tanz", "example":{}},
     "learn": {"translation": "lernen", "example":{}},
