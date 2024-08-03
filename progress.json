@@ -1,8 +1,8 @@
 {
     "vocabulary": {
         "de": {
-            "level": 6,
-            "last_check_time": "29/07/2024 13:29:10"
+            "level": 7,
+            "last_check_time": "03/08/2024 12:35:15"
         }
     },
     "How": {
@@ -217,44 +217,44 @@
     },
     "animal": {
         "de": {
-            "level": 5,
-            "last_check_time": "31/07/2024 11:37:17"
+            "level": 6,
+            "last_check_time": "03/08/2024 12:35:43"
         }
     },
     "trust": {
         "de": {
-            "level": 5,
-            "last_check_time": "31/07/2024 11:38:19"
+            "level": 6,
+            "last_check_time": "03/08/2024 12:36:13"
         }
     },
     "game": {
         "de": {
-            "level": 5,
-            "last_check_time": "31/07/2024 11:39:42"
+            "level": 6,
+            "last_check_time": "03/08/2024 12:36:40"
         }
     },
     "feeling": {
         "de": {
-            "level": 5,
-            "last_check_time": "31/07/2024 11:40:20"
+            "level": 6,
+            "last_check_time": "03/08/2024 12:38:11"
         }
     },
     "puzzle": {
         "de": {
-            "level": 5,
-            "last_check_time": "31/07/2024 11:40:55"
+            "level": 6,
+            "last_check_time": "03/08/2024 12:39:14"
         }
     },
     "country": {
         "de": {
-            "level": 5,
-            "last_check_time": "31/07/2024 11:41:26"
+            "level": 6,
+            "last_check_time": "03/08/2024 12:39:38"
         }
     },
     "gold": {
         "de": {
-            "level": 5,
-            "last_check_time": "31/07/2024 11:41:56"
+            "level": 6,
+            "last_check_time": "03/08/2024 12:40:11"
         }
     },
     "power": {
@@ -319,32 +319,32 @@
     },
     "transparent": {
         "de": {
-            "level": 4,
-            "last_check_time": "01/08/2024 13:03:20"
+            "level": 5,
+            "last_check_time": "03/08/2024 12:41:26"
         }
     },
     "star": {
         "de": {
-            "level": 4,
-            "last_check_time": "01/08/2024 13:03:50"
+            "level": 5,
+            "last_check_time": "03/08/2024 12:42:28"
         }
     },
     "smart": {
         "de": {
-            "level": 4,
-            "last_check_time": "01/08/2024 13:04:29"
+            "level": 5,
+            "last_check_time": "03/08/2024 12:42:56"
         }
     },
     "fool": {
         "de": {
-            "level": 4,
-            "last_check_time": "01/08/2024 13:05:21"
+            "level": 5,
+            "last_check_time": "03/08/2024 12:44:25"
         }
     },
     "fight": {
         "de": {
-            "level": 4,
-            "last_check_time": "01/08/2024 13:06:44"
+            "level": 5,
+            "last_check_time": "03/08/2024 12:43:54"
         }
     },
     "struggle": {
@@ -391,92 +391,122 @@
     },
     "sharp": {
         "de": {
-            "level": 3,
-            "last_check_time": "02/08/2024 11:52:21"
+            "level": 4,
+            "last_check_time": "03/08/2024 12:46:16"
         }
     },
     "solid": {
         "de": {
-            "level": 3,
-            "last_check_time": "02/08/2024 11:53:07"
+            "level": 4,
+            "last_check_time": "03/08/2024 12:47:19"
         }
     },
     "chess": {
         "de": {
-            "level": 3,
-            "last_check_time": "02/08/2024 11:56:22"
+            "level": 4,
+            "last_check_time": "03/08/2024 12:47:50"
         }
     },
     "phone": {
         "de": {
-            "level": 3,
-            "last_check_time": "02/08/2024 11:57:24"
+            "level": 4,
+            "last_check_time": "03/08/2024 12:48:58"
         }
     },
     "sword": {
         "de": {
-            "level": 1,
-            "last_check_time": "02/08/2024 12:14:21"
+            "level": 2,
+            "last_check_time": "03/08/2024 12:49:36"
         }
     },
     "shield": {
         "de": {
-            "level": 2,
-            "last_check_time": "02/08/2024 12:00:03"
+            "level": 3,
+            "last_check_time": "03/08/2024 12:50:40"
         }
     },
     "balance": {
         "de": {
-            "level": 2,
-            "last_check_time": "02/08/2024 12:15:36"
+            "level": 3,
+            "last_check_time": "03/08/2024 12:51:40"
         }
     },
     "brain": {
         "de": {
-            "level": 2,
-            "last_check_time": "02/08/2024 12:16:05"
+            "level": 3,
+            "last_check_time": "03/08/2024 12:53:26"
         }
     },
     "dance": {
         "de": {
-            "level": 2,
-            "last_check_time": "02/08/2024 12:16:55"
+            "level": 3,
+            "last_check_time": "03/08/2024 12:54:03"
         }
     },
     "learn": {
         "de": {
-            "level": 2,
-            "last_check_time": "02/08/2024 12:17:36"
+            "level": 3,
+            "last_check_time": "03/08/2024 12:55:08"
         }
     },
     "rage": {
         "de": {
             "level": 1,
-            "last_check_time": "02/08/2024 12:24:29"
+            "last_check_time": "03/08/2024 12:57:32"
         }
     },
     "calm": {
         "de": {
             "level": 1,
-            "last_check_time": "02/08/2024 12:25:02"
+            "last_check_time": "03/08/2024 13:05:49"
         }
     },
     "queen": {
         "de": {
-            "level": 1,
-            "last_check_time": "02/08/2024 12:25:42"
+            "level": 2,
+            "last_check_time": "03/08/2024 12:59:53"
         }
     },
     "horse": {
         "de": {
-            "level": 1,
-            "last_check_time": "02/08/2024 12:27:27"
+            "level": 2,
+            "last_check_time": "03/08/2024 13:00:54"
         }
     },
     "wild": {
         "de": {
+            "level": 2,
+            "last_check_time": "03/08/2024 13:01:35"
+        }
+    },
+    "happy": {
+        "de": {
             "level": 1,
-            "last_check_time": "02/08/2024 12:27:57"
+            "last_check_time": "03/08/2024 13:06:38"
+        }
+    },
+    "girl": {
+        "de": {
+            "level": 1,
+            "last_check_time": "03/08/2024 13:07:31"
+        }
+    },
+    "boy": {
+        "de": {
+            "level": 1,
+            "last_check_time": "03/08/2024 13:07:58"
+        }
+    },
+    "champion": {
+        "de": {
+            "level": 1,
+            "last_check_time": "03/08/2024 13:04:04"
+        }
+    },
+    "peace": {
+        "de": {
+            "level": 1,
+            "last_check_time": "03/08/2024 13:08:43"
         }
     }
 }
