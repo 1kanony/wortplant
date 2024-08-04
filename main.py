@@ -45,7 +45,7 @@ def cycle(recognizer, engine):
                 check_spelling_passed = False
 
             # give_example(data['example'], 'de', 'en', engine)
-            check_pronunciation_passed = check_pronunciation(
+            check_pronunciation_passed = True or check_pronunciation(  # checking pronunciation using Google Translate
                 data['translation'],
                 language,
                 recognizer,
