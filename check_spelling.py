@@ -36,11 +36,12 @@ def check_spelling(word, attrs, correct_answer, language, chances):
 
 
 def _ask_word(word, attrs, correct_answer, language):
-    en_lang = f'{word}{' (' + attrs + ')' if attrs else ''}'
+    en_lang = word
+    en_lang_with_attrs = f'{en_lang}{' (' + attrs + ')' if attrs else ''}'
     other_lang = correct_answer
 
     if random.choice([True, False]):
-        text = f'what is the translation of word \'{en_lang}\' in \'{language}\'?\''
+        text = f'what is the translation of word \'{en_lang_with_attrs}\' in \'{language}\'?\''
     else:
         text = f'what is the translation of word \'{other_lang}\' in \'en\'?\''
         correct_answer = en_lang
