@@ -313,8 +313,8 @@
     },
     "truth": {
         "de": {
-            "level": 5,
-            "last_check_time": "04/08/2024 13:06:31"
+            "level": 6,
+            "last_check_time": "07/08/2024 13:56:36"
         }
     },
     "transparent": {
@@ -349,44 +349,44 @@
     },
     "struggle": {
         "de": {
-            "level": 5,
-            "last_check_time": "04/08/2024 13:06:40"
+            "level": 6,
+            "last_check_time": "07/08/2024 13:56:48"
         }
     },
     "family": {
         "de": {
-            "level": 5,
-            "last_check_time": "04/08/2024 13:06:43"
+            "level": 6,
+            "last_check_time": "07/08/2024 13:56:58"
         }
     },
     "mother": {
         "de": {
-            "level": 5,
-            "last_check_time": "04/08/2024 13:06:45"
+            "level": 6,
+            "last_check_time": "07/08/2024 13:57:18"
         }
     },
     "father": {
         "de": {
-            "level": 5,
-            "last_check_time": "04/08/2024 13:06:56"
+            "level": 6,
+            "last_check_time": "07/08/2024 13:57:21"
         }
     },
     "brother": {
         "de": {
-            "level": 5,
-            "last_check_time": "04/08/2024 13:07:01"
+            "level": 6,
+            "last_check_time": "07/08/2024 13:57:33"
         }
     },
     "sister": {
         "de": {
-            "level": 5,
-            "last_check_time": "04/08/2024 13:07:04"
+            "level": 6,
+            "last_check_time": "07/08/2024 13:57:37"
         }
     },
     "cat": {
         "de": {
-            "level": 5,
-            "last_check_time": "04/08/2024 13:07:07"
+            "level": 6,
+            "last_check_time": "07/08/2024 13:57:41"
         }
     },
     "sharp": {
@@ -415,8 +415,8 @@
     },
     "sword": {
         "de": {
-            "level": 4,
-            "last_check_time": "05/08/2024 12:40:37"
+            "level": 5,
+            "last_check_time": "07/08/2024 13:58:03"
         }
     },
     "shield": {
@@ -463,26 +463,26 @@
     },
     "queen": {
         "de": {
-            "level": 4,
-            "last_check_time": "05/08/2024 12:41:15"
+            "level": 5,
+            "last_check_time": "07/08/2024 13:58:14"
         }
     },
     "horse": {
         "de": {
-            "level": 4,
-            "last_check_time": "05/08/2024 12:41:47"
+            "level": 5,
+            "last_check_time": "07/08/2024 13:58:17"
         }
     },
     "wild": {
         "de": {
-            "level": 4,
-            "last_check_time": "05/08/2024 12:41:50"
+            "level": 5,
+            "last_check_time": "07/08/2024 13:58:22"
         }
     },
     "happy": {
         "de": {
-            "level": 3,
-            "last_check_time": "06/08/2024 12:50:44"
+            "level": 4,
+            "last_check_time": "07/08/2024 13:58:46"
         }
     },
     "girl": {
@@ -505,140 +505,170 @@
     },
     "peace": {
         "de": {
-            "level": 2,
-            "last_check_time": "06/08/2024 12:51:38"
+            "level": 3,
+            "last_check_time": "07/08/2024 13:59:05"
         }
     },
     "monday": {
         "de": {
-            "level": 3,
-            "last_check_time": "06/08/2024 12:52:10"
+            "level": 4,
+            "last_check_time": "07/08/2024 14:00:00"
         }
     },
     "tuesday": {
         "de": {
-            "level": 3,
-            "last_check_time": "06/08/2024 12:52:16"
+            "level": 4,
+            "last_check_time": "07/08/2024 14:00:03"
         }
     },
     "wednesday": {
         "de": {
-            "level": 3,
-            "last_check_time": "06/08/2024 12:52:23"
+            "level": 4,
+            "last_check_time": "07/08/2024 14:00:31"
         }
     },
     "thursday": {
         "de": {
-            "level": 3,
-            "last_check_time": "06/08/2024 12:52:28"
+            "level": 4,
+            "last_check_time": "07/08/2024 14:00:41"
         }
     },
     "friday": {
         "de": {
-            "level": 3,
-            "last_check_time": "06/08/2024 12:52:42"
+            "level": 4,
+            "last_check_time": "07/08/2024 14:01:01"
         }
     },
     "saturday": {
         "de": {
-            "level": 3,
-            "last_check_time": "06/08/2024 12:53:11"
+            "level": 4,
+            "last_check_time": "07/08/2024 14:01:04"
         }
     },
     "sunday": {
         "de": {
-            "level": 3,
-            "last_check_time": "06/08/2024 12:53:14"
+            "level": 4,
+            "last_check_time": "07/08/2024 14:01:11"
         }
     },
     "first": {
         "de": {
-            "level": 2,
-            "last_check_time": "06/08/2024 12:53:18"
+            "level": 3,
+            "last_check_time": "07/08/2024 14:01:22"
         }
     },
     "second": {
         "de": {
-            "level": 1,
-            "last_check_time": "06/08/2024 13:04:43"
+            "level": 2,
+            "last_check_time": "07/08/2024 14:01:25"
         }
     },
     "third": {
         "de": {
-            "level": 2,
-            "last_check_time": "06/08/2024 12:53:44"
+            "level": 3,
+            "last_check_time": "07/08/2024 14:01:29"
         }
     },
     "free": {
         "de": {
-            "level": 2,
-            "last_check_time": "06/08/2024 12:53:50"
+            "level": 3,
+            "last_check_time": "07/08/2024 14:01:32"
         }
     },
     "lose": {
         "de": {
-            "level": 2,
-            "last_check_time": "06/08/2024 12:54:01"
+            "level": 3,
+            "last_check_time": "07/08/2024 14:01:57"
         }
     },
     "win": {
         "de": {
-            "level": 2,
-            "last_check_time": "06/08/2024 12:54:08"
+            "level": 3,
+            "last_check_time": "07/08/2024 14:02:02"
         }
     },
     "have": {
         "de": {
-            "level": 2,
-            "last_check_time": "06/08/2024 12:54:14"
+            "level": 3,
+            "last_check_time": "07/08/2024 14:02:04"
         }
     },
     "be": {
         "de": {
-            "level": 2,
-            "last_check_time": "06/08/2024 12:54:16"
+            "level": 3,
+            "last_check_time": "07/08/2024 14:02:45"
         }
     },
     "open_verb": {
         "de": {
-            "level": 2,
-            "last_check_time": "06/08/2024 12:54:34"
+            "level": 3,
+            "last_check_time": "07/08/2024 14:03:44"
         }
     },
     "open_adjective": {
         "de": {
-            "level": 2,
-            "last_check_time": "06/08/2024 12:54:43"
+            "level": 3,
+            "last_check_time": "07/08/2024 14:03:46"
         }
     },
     "close_verb": {
         "de": {
-            "level": 1,
-            "last_check_time": "06/08/2024 13:08:02"
+            "level": 2,
+            "last_check_time": "07/08/2024 14:03:53"
         }
     },
     "close_adjective": {
         "de": {
-            "level": 1,
-            "last_check_time": "06/08/2024 13:04:51"
+            "level": 2,
+            "last_check_time": "07/08/2024 14:03:49"
         }
     },
     "closed": {
         "de": {
-            "level": 1,
-            "last_check_time": "06/08/2024 13:08:15"
+            "level": 2,
+            "last_check_time": "07/08/2024 14:04:08"
         }
     },
     "send": {
         "de": {
-            "level": 1,
-            "last_check_time": "06/08/2024 13:05:25"
+            "level": 2,
+            "last_check_time": "07/08/2024 14:04:53"
         }
     },
     "eat": {
         "de": {
+            "level": 2,
+            "last_check_time": "07/08/2024 14:04:56"
+        }
+    },
+    "drink": {
+        "de": {
             "level": 1,
-            "last_check_time": "06/08/2024 13:05:29"
+            "last_check_time": "07/08/2024 14:07:24"
+        }
+    },
+    "think": {
+        "de": {
+            "level": 1,
+            "last_check_time": "07/08/2024 14:07:41"
+        }
+    },
+    "talk": {
+        "de": {
+            "level": 1,
+            "last_check_time": "07/08/2024 14:08:01"
+        }
+    },
+    "chat": {
+        "de": {
+            "level": 1,
+            "last_check_time": "07/08/2024 14:09:01"
+        }
+    },
+    "die": {
+        "de": {
+            "level": 1,
+            "last_check_time": "07/08/2024 14:09:03"
         }
     }
 }
