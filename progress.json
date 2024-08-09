@@ -199,8 +199,8 @@
     },
     "age": {
         "de": {
-            "level": 5,
-            "last_check_time": "06/08/2024 12:47:50"
+            "level": 6,
+            "last_check_time": "09/08/2024 11:11:13"
         }
     },
     "cold-blooded": {
@@ -259,26 +259,26 @@
     },
     "power": {
         "de": {
-            "level": 6,
-            "last_check_time": "04/08/2024 13:05:17"
+            "level": 7,
+            "last_check_time": "09/08/2024 11:11:19"
         }
     },
     "black": {
         "de": {
-            "level": 6,
-            "last_check_time": "04/08/2024 13:05:35"
+            "level": 7,
+            "last_check_time": "09/08/2024 11:11:31"
         }
     },
     "white": {
         "de": {
-            "level": 6,
-            "last_check_time": "04/08/2024 13:05:59"
+            "level": 5,
+            "last_check_time": "09/08/2024 11:12:21"
         }
     },
     "dog": {
         "de": {
-            "level": 6,
-            "last_check_time": "04/08/2024 13:06:13"
+            "level": 7,
+            "last_check_time": "09/08/2024 11:12:23"
         }
     },
     "hatred": {
@@ -421,32 +421,32 @@
     },
     "shield": {
         "de": {
-            "level": 5,
-            "last_check_time": "06/08/2024 12:49:47"
+            "level": 6,
+            "last_check_time": "09/08/2024 11:12:30"
         }
     },
     "balance": {
         "de": {
-            "level": 5,
-            "last_check_time": "06/08/2024 12:49:49"
+            "level": 6,
+            "last_check_time": "09/08/2024 11:12:35"
         }
     },
     "brain": {
         "de": {
-            "level": 5,
-            "last_check_time": "06/08/2024 12:49:53"
+            "level": 6,
+            "last_check_time": "09/08/2024 11:12:38"
         }
     },
     "dance": {
         "de": {
-            "level": 5,
-            "last_check_time": "06/08/2024 12:49:56"
+            "level": 6,
+            "last_check_time": "09/08/2024 11:12:40"
         }
     },
     "learn": {
         "de": {
-            "level": 5,
-            "last_check_time": "06/08/2024 12:50:04"
+            "level": 6,
+            "last_check_time": "09/08/2024 11:12:42"
         }
     },
     "rage": {
@@ -481,8 +481,8 @@
     },
     "happy": {
         "de": {
-            "level": 4,
-            "last_check_time": "07/08/2024 13:58:46"
+            "level": 5,
+            "last_check_time": "09/08/2024 11:12:50"
         }
     },
     "girl": {
@@ -511,56 +511,56 @@
     },
     "monday": {
         "de": {
-            "level": 4,
-            "last_check_time": "07/08/2024 14:00:00"
+            "level": 5,
+            "last_check_time": "09/08/2024 11:12:53"
         }
     },
     "tuesday": {
         "de": {
-            "level": 4,
-            "last_check_time": "07/08/2024 14:00:03"
+            "level": 5,
+            "last_check_time": "09/08/2024 11:12:58"
         }
     },
     "wednesday": {
         "de": {
-            "level": 4,
-            "last_check_time": "07/08/2024 14:00:31"
+            "level": 5,
+            "last_check_time": "09/08/2024 11:13:04"
         }
     },
     "thursday": {
         "de": {
-            "level": 4,
-            "last_check_time": "07/08/2024 14:00:41"
+            "level": 5,
+            "last_check_time": "09/08/2024 11:13:09"
         }
     },
     "friday": {
         "de": {
-            "level": 4,
-            "last_check_time": "07/08/2024 14:01:01"
+            "level": 5,
+            "last_check_time": "09/08/2024 11:13:13"
         }
     },
     "saturday": {
         "de": {
-            "level": 4,
-            "last_check_time": "07/08/2024 14:01:04"
+            "level": 5,
+            "last_check_time": "09/08/2024 11:13:18"
         }
     },
     "sunday": {
         "de": {
-            "level": 4,
-            "last_check_time": "07/08/2024 14:01:11"
+            "level": 5,
+            "last_check_time": "09/08/2024 11:13:32"
         }
     },
     "first": {
         "de": {
-            "level": 2,
-            "last_check_time": "08/08/2024 14:01:03"
+            "level": 3,
+            "last_check_time": "09/08/2024 11:13:35"
         }
     },
     "second": {
         "de": {
-            "level": 3,
-            "last_check_time": "08/08/2024 14:01:07"
+            "level": 4,
+            "last_check_time": "09/08/2024 11:13:38"
         }
     },
     "third": {
@@ -577,8 +577,8 @@
     },
     "lose": {
         "de": {
-            "level": 2,
-            "last_check_time": "08/08/2024 14:01:51"
+            "level": 3,
+            "last_check_time": "09/08/2024 11:13:45"
         }
     },
     "win": {
@@ -613,110 +613,140 @@
     },
     "close_verb": {
         "de": {
-            "level": 3,
-            "last_check_time": "08/08/2024 14:03:02"
+            "level": 4,
+            "last_check_time": "09/08/2024 11:13:53"
         }
     },
     "close_adjective": {
         "de": {
-            "level": 3,
-            "last_check_time": "08/08/2024 14:02:32"
+            "level": 4,
+            "last_check_time": "09/08/2024 11:13:48"
         }
     },
     "closed": {
         "de": {
-            "level": 3,
-            "last_check_time": "08/08/2024 14:03:07"
+            "level": 4,
+            "last_check_time": "09/08/2024 11:13:56"
         }
     },
     "send": {
         "de": {
-            "level": 3,
-            "last_check_time": "08/08/2024 14:03:09"
+            "level": 4,
+            "last_check_time": "09/08/2024 11:13:58"
         }
     },
     "eat": {
         "de": {
-            "level": 3,
-            "last_check_time": "08/08/2024 14:03:11"
+            "level": 4,
+            "last_check_time": "09/08/2024 11:14:00"
         }
     },
     "drink": {
         "de": {
-            "level": 2,
-            "last_check_time": "08/08/2024 14:03:13"
+            "level": 3,
+            "last_check_time": "09/08/2024 11:14:03"
         }
     },
     "think": {
         "de": {
-            "level": 2,
-            "last_check_time": "08/08/2024 14:03:17"
+            "level": 3,
+            "last_check_time": "09/08/2024 11:14:06"
         }
     },
     "talk": {
         "de": {
-            "level": 2,
-            "last_check_time": "08/08/2024 14:03:22"
+            "level": 3,
+            "last_check_time": "09/08/2024 11:14:08"
         }
     },
     "chat": {
         "de": {
-            "level": 2,
-            "last_check_time": "08/08/2024 14:03:25"
+            "level": 3,
+            "last_check_time": "09/08/2024 11:14:12"
         }
     },
     "die": {
         "de": {
-            "level": 2,
-            "last_check_time": "08/08/2024 14:03:28"
+            "level": 3,
+            "last_check_time": "09/08/2024 11:14:24"
         }
     },
     "strange": {
         "de": {
-            "level": 1,
-            "last_check_time": "08/08/2024 14:13:18"
+            "level": 2,
+            "last_check_time": "09/08/2024 11:14:34"
         }
     },
     "life": {
         "de": {
-            "level": 1,
-            "last_check_time": "08/08/2024 14:12:52"
+            "level": 2,
+            "last_check_time": "09/08/2024 11:14:37"
         }
     },
     "video": {
         "de": {
-            "level": 1,
-            "last_check_time": "08/08/2024 14:12:54"
+            "level": 2,
+            "last_check_time": "09/08/2024 11:14:39"
         }
     },
     "photo": {
         "de": {
-            "level": 1,
-            "last_check_time": "08/08/2024 14:12:57"
+            "level": 2,
+            "last_check_time": "09/08/2024 11:14:41"
         }
     },
     "foot": {
         "de": {
-            "level": 1,
-            "last_check_time": "08/08/2024 14:12:59"
+            "level": 2,
+            "last_check_time": "09/08/2024 11:14:44"
         }
     },
     "hand": {
         "de": {
-            "level": 1,
-            "last_check_time": "08/08/2024 14:13:03"
+            "level": 2,
+            "last_check_time": "09/08/2024 11:14:51"
         }
     },
     "head": {
         "de": {
             "level": 1,
-            "last_check_time": "08/08/2024 14:13:07"
+            "last_check_time": "09/08/2024 11:15:34"
         }
     },
     "page": {
         "de": {
             "level": 1,
-            "last_check_time": "08/08/2024 14:15:49"
+            "last_check_time": "09/08/2024 11:15:36"
+        }
+    },
+    "one": {
+        "de": {
+            "level": 1,
+            "last_check_time": "09/08/2024 11:27:01"
+        }
+    },
+    "two": {
+        "de": {
+            "level": 1,
+            "last_check_time": "09/08/2024 11:27:06"
+        }
+    },
+    "three": {
+        "de": {
+            "level": 1,
+            "last_check_time": "09/08/2024 11:27:13"
+        }
+    },
+    "four": {
+        "de": {
+            "level": 1,
+            "last_check_time": "09/08/2024 11:27:18"
+        }
+    },
+    "five": {
+        "de": {
+            "level": 1,
+            "last_check_time": "09/08/2024 11:27:26"
         }
     }
 }
